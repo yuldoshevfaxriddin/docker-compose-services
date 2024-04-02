@@ -16,14 +16,20 @@ docker-compose up
 ```
 
 Project structurasi
+```
+|  docker-compose-services
+|  |
+|  |--service1
+|  |  |--Dockerfile
+|  |  |--index.php
+|  |
+|  |--service2
+|  |  |--Dockerfile
+|  |  |--index.php
+|  |  |--api.php
+|  |  |--info.php
+|  |
+|  |--docker-compose.yml
 
-docker-compose-services
-|--service1
-|  |--Dockerfile
-|  |--index.php
-|
-|--service2
-|  |--Dockerfile
-|  |--index.php
-|  |--api.php
-|  |--info.php
+```
+
